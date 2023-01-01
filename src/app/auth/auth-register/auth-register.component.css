@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+}
+
+mat-form-field {
+  font-family: monospace;
+  color: lawngreen;
+}
+
+mat-label {
+  font-family: monospace;
+}
+
+body {
+  font-family: monospace;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}

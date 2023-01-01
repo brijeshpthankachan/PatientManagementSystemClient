@@ -1,0 +1,65 @@
+.container{
+  padding: 1rem;
+
+  /*background: #db1b24;*/
+
+
+}
+
+.card-content  {
+
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-content-between {
+  padding: 0.5rem;
+  display: flex;
+justify-content: space-between;
+}
+mat-card{
+  font-family: cursive;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  color: black;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+mat-card-title{
+
+  font-family: Bahnschrift,sans-serif;
+  font-size: medium;
+}
+mat-card-subtitle{
+  font-family: monospace;
+  color: rgba(128, 128, 128, 0.69);
+}
+
+mat-card-content{
+  padding: 0;
+  font-family: Bahnschrift;
+}
+
+mat-card-actions{
+  padding: 0;
+}
+
+.addUser {
+  background: white;
+  display: flex;
+  border-radius: 3px;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+
+.card{
+  margin-top: 1rem;
+  border-radius: 3px;
+  padding: 0.5rem;
+  border-left: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+
+}

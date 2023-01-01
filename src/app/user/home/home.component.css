@@ -1,0 +1,49 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Bahnschrift, serif;
+  padding: 0.5rem;
+
+}
+
+.drawer {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    justify-content: center;
+    width: 30%;
+    height: 100vh;
+    font-family: cursive;
+    margin: auto;
+  }
+}
+
+.container {
+  height: 100vh;
+  font-family: cursive;
+}
+
+.nav-links {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+button {
+  font-family: Bahnschrift, sans-serif;
+}
+.logout {
+  height: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
